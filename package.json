@@ -1,0 +1,17 @@
+{
+  "name": "twitter-oauth2-token",
+  "version": "1.0.0",
+  "description": "This is a sample repository so that we can obtain `access_token` and `refresh_token` on Twitter (Now namded \"X\").",
+  "main": "sample-web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
