@@ -10,7 +10,7 @@ app.get('/callback' , async (req,res)=>{
         if (req.query.code) {
             const authorizationCode = req.query.code;
             console.log('call /2/oauth2/token; code=' + authorizationCode);
-            const r = await axios.post('https://api.twitter.com/2/oauth2/token', {
+            const r = await axios.post('https://api.x.com/2/oauth2/token', {
                 code: authorizationCode,
                 grant_type: 'authorization_code',
                 client_id: process.env['TWITTER_CLIENT_ID'],
