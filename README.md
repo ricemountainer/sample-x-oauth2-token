@@ -6,7 +6,7 @@ This is a sample repository so that we can obtain `access_token` and `refresh_to
 
 You can grab X API OAuth2 Tokens that can be used to call X API following these steps:
 
-1. Go to Twitter Developer site, create a Twitter app, then copy `CLIENT_ID` and `CLIENT_SECRET`
+1. Go to [X (Formally Twitter) Developer site](https://developer.x.com/), create an app, then copy `CLIENT_ID` and `CLIENT_SECRET`
 2. Enter `http://localhost:4000/callback` as Redirect URL.
 3. Run `echo -n [CLIENT_ID]:[CLIENT_SECRET] | base64` and then save the result. It will be used later.
 4. Make `.env` file and then configure `CLIENT_ID`, `CLIENT_SECRET` and `CLIENT_SECRET_BASE64` values. Please refer the [`.env.sample`](./.env.sample)
